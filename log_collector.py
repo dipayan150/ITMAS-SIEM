@@ -13,7 +13,9 @@ from alerting.alert_manager import AlertManager
 # =========================
 # Phase 1: Log Collection
 # =========================
-LOG_DIR = "data/raw_logs"
+
+from config.settings import LOG_DIR
+
 
 def collect_logs():
     logs = []
