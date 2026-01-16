@@ -29,6 +29,12 @@ Log Sources → Ingestion → Parsing → Detection (Rules + ML) → Alerting
 - Isolation Forest
 - SMTP alerting
 
+## Future Enhancements
+- Slack / Webhook alerts
+- Phishing detection (NLP)
+- Dashboard visualization
+- Alert persistence (SQLite)
+
 ## How to Run
 
 ```bash
@@ -37,8 +43,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 python log_collector.py
 
-## Future Enhancements
-- Slack / Webhook alerts
-- Phishing detection (NLP)
-- Dashboard visualization
-- Alert persistence (SQLite)
+
