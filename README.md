@@ -29,6 +29,13 @@ Log Sources → Ingestion → Parsing → Detection (Rules + ML) → Alerting
 - Isolation Forest
 - SMTP alerting
 
+## Project Structure Highlights
+
+- `main.py` — single execution entry point
+- `config/` — centralized configuration
+- `dashboard/` — visualization-ready data layer
+- Modular detection and alerting pipeline
+
 ## Future Enhancements
 - Slack / Webhook alerts
 - Phishing detection (NLP)
