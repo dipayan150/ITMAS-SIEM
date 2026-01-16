@@ -16,3 +16,6 @@ data/raw_logs/
 # OS
 .DS_Store
 
+# Dashboard runtime data
+dashboard/*.json
+

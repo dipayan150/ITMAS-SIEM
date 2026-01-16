@@ -2,13 +2,16 @@ import numpy as np
 from collections import Counter
 from datetime import datetime
 from sklearn.ensemble import IsolationForest
+from config.settings import ANOMALY_CONTAMINATION
+
+
 
 class AnomalyDetector:
     def __init__(self):
         self.model = IsolationForest(
-            n_estimators=100,
-            contamination=0.02,
-            random_state=42
+    n_estimators=100,
+    contamination=ANOMALY_CONTAMINATION,
+    random_state=42
         )
         self.trained = False
 
